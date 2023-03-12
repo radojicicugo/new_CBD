@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Products from './components/Products';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
+import BodyPage from './components/BodyPage';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/products" component={Products} />
           <Route exact path="/pricing" component={Pricing} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/bodypage" component={BodyPage} />
         </Switch>
       </Router>
     </div>
